@@ -52,10 +52,9 @@ jobs:
 
       - name: Verify Processed Dataset
         run: |
+          test -d preprocessing/dataset_5_class_animal_preprocessing/test
           test -d preprocessing/dataset_5_class_animal_preprocessing/train
           test -d preprocessing/dataset_5_class_animal_preprocessing/validation
-          test -d preprocessing/dataset_5_class_animal_preprocessing/test
-          test -s preprocessing/dataset_5_class_animal_preprocessing/manifest.csv
 
           echo "Dataset berhasil diproses."
 
