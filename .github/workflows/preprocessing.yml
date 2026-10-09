@@ -48,7 +48,7 @@ jobs:
 
       - name: Run Automated Preprocessing
         run: |
-          python preprocessing/automate_Nama-siswa.py
+          python preprocessing/automate_Khairul-Rasyid.py
 
       - name: Verify Processed Dataset
         run: |
