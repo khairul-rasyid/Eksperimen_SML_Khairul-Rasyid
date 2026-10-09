@@ -1,0 +1,18 @@
+
+# Virtual environment
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Dataset mentah hasil download Kaggle
+/dataset_5_class_animal_raw/
+
+# Dataset hasil preprocessing lokal
+/preprocessing/dataset_5_class_animal_preprocessing/
+
+# Laporan lokal (opsional)
+# /preprocessing/reports/
+
+# File kredensial Kaggle
+kaggle.json
